@@ -1,0 +1,101 @@
+body{
+	margin:0;
+	background-color: #000000;
+}
+.navtop {
+	position: relative;
+	overflow: hidden;
+	background-color: #000000;
+}
+.navtop a {
+	list-style-type: none;
+	margin: 0;
+	float: right;
+	display: block;
+	padding: 17px;
+	text-decoration: none;
+	line-height: 250%;
+	font-size: 27px;
+	color: white;
+	font-family: Kalam;
+}
+.navtop a:hover {
+	background-color: #FFFAF0;
+	color: #C0C0C0;
+}
+.navtop a.active {
+	background-color: #FFFAFA;
+	color: black;
+}
+.container {
+	margin-left: 75px;
+	position: relative;
+	width: 210px;
+}
+
+.image {
+	display: block;
+	width: 210px;
+	height: 180px;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #000000;
+}
+
+.container:hover .overlay {
+	opacity: 1;
+}
+
+.text {
+	color: white;
+	font-size: 30px;
+	font-family: Julee;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+		
+.dropdown{
+	position:relative;
+	display: inline-block;
+}
+			
+.dropdown-content{
+	display: none;
+	position: absolute;
+	min-width: 50px;
+	z-index: 1;
+}
+
+div.gallery{
+	float: left;
+	width: 200px;
+}
+
+#ec, #wc{
+	font-family: Julee;
+	font-size: 40px;
+	color: white;
+	margin-left: 25px;
+}
+#ad, #cd, #sd, #swd, #nd, #pd{
+	font-family: Julee;
+	font-size: 30px;
+	color: white;
+	margin-left: 45px;
+}
+
+	
+	
